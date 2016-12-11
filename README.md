@@ -1,6 +1,6 @@
 # Irinus Project
 
-![](/home/felipe/meteorworkspace/Irinus/public/resources/irinus_logo.png)
+![](/public/resources/irinus_logo.png)
 
 Irinus is an open source project to help organizations with planning, communication and management.
 
