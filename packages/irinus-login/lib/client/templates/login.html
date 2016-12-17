@@ -1,3 +1,7 @@
+<head>
+    <title>Irinus</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
 <template name="login">
     <div class="valign-wrapper background">
         <div class="row">
@@ -5,20 +9,24 @@
             <form class="container">
                 <div class="input-field">
                     <label for="login-username" class="irinus-label">Username</label>
-                    <input type="text" class="validate irinus-input" id="login-username">
+                    <input type="text" class="validate irinus-input" id="login-username" required="required">
                 </div>
                 <div class="input-field">
-                    <input type="password" class="validate irinus-input" id="login-password">
+                    <input type="password" class="validate irinus-input" id="login-password" required="required">
                     <label for="login-password" class="irinus-label">Password</label>
                 </div>
                 <div class="row">
-                  <div class="center">
-                    <a class="waves-effect waves-red btn irinus-button">Login</a>
-                    <a class="waves-effect waves-teal btn irinus-secondary-button">Register</a>
-                  </div>
+                    <div class="center">
+                        <input type="submit" id="login-button" class="waves-effect waves-red btn irinus-button" value="Login">
+                        <input type="button" id="register-button" class="waves-effect waves-teal btn irinus-secondary-button" value="Register">
+                    </div>
                 </div>
             </form>
 
         </div>
+    </div>
+
+    <div id="register_modal" class="modal modal-fixed-footer">
+        {{> register}}
     </div>
 </template>

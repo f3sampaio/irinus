@@ -10,4 +10,8 @@ Package.describe({
 /* This defines your actual package */
 Package.onUse(function (api) {
 
+  api.use('templating');
+  api.use('fourseven:scss')
+  
+  api.addFiles('lib/client/templates/main.html', 'client');
 });
