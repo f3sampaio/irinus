@@ -8,6 +8,8 @@ Template.login.events({
       if(!Meteor.userId()){
         var text = "<i class='small material-icons'>error_outline</i><span> Invalid Username or Password</span>"
         Materialize.toast(text, 3000, 'red');
+      } else {
+        FlowRouter.go('/main');
       }
     });
 

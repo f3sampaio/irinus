@@ -12,6 +12,10 @@ Package.onUse(function (api) {
 
   api.use('templating');
   api.use('fourseven:scss')
-  
+
   api.addFiles('lib/client/templates/main.html', 'client');
+  api.addFiles('lib/client/templates/navbar.html', 'client');
+
+
+  api.addFiles('lib/client/js/main.js', 'client');
 });

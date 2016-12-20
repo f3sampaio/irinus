@@ -1,14 +1,3 @@
-// Router.route('/login', function() {
-//   this.render('login');
-// });
-//
-// Router.route('/', function(){
-//   if(Meteor.userId()){
-//     Router.go('/main');
-//   } else {
-//     Router.go('/login');
-//   }
-// });
 
 FlowRouter.route('/login', {
   name: 'login',
