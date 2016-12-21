@@ -1,3 +1,7 @@
+Template.login.onRendered(function(){
+  // this.$('.modal').modal();
+});
+
 Template.login.events({
   'click #login-button'(event){
     event.preventDefault();

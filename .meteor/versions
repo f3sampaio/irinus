@@ -51,7 +51,6 @@ materialize:materialize@0.97.0
 meteor@1.6.0
 meteor-base@1.0.4
 meteorspark:util@0.2.0
-meteorstuff:materialize-modal@1.0.6
 minifier-css@1.2.15
 minifier-js@1.2.15
 minimongo@1.0.19
@@ -78,7 +77,6 @@ service-configuration@1.0.11
 session@1.0.5
 sha@1.0.9
 shell-server@0.2.1
-softwarerero:accounts-t9n@1.1.7
 spacebars@1.0.13
 spacebars-compiler@1.0.13
 srp@1.0.10

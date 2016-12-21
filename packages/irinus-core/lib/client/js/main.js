@@ -1,5 +1,5 @@
 Template.main.onRendered(function(){
-  $('.carousel').carousel();
+  $('.carousel').init();
 })
 
 Template.main.events({
