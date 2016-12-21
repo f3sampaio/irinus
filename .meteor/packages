@@ -27,5 +27,5 @@ accounts-password
 kadira:flow-router
 kadira:blaze-layout
 tap:i18n
-materialize:materialize@=0.97.0
+materialize:materialize
 meteorstuff:materialize-modal

@@ -1,0 +1,14 @@
+
+$irinus-blue: #003399;
+@font-face {
+    font-family: irinus-font;
+    src: url("/resources/irinus-font.TTF");
+}
+
+.logo-text {
+  font-family: irinus-font;
+}
+
+.irinus-navbar{
+  background-color: $irinus-blue !important;
+}

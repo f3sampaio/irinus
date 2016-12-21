@@ -1,8 +1,7 @@
-Template.main.events({
+Template.main.onRendered(function(){
+  $('.carousel').carousel();
+})
 
-  'click #logout-button'(event){
-    Meteor.logout();
-    FlowRouter.go('/login');
-  }
+Template.main.events({
 
 })

@@ -10,12 +10,19 @@ Package.describe({
 /* This defines your actual package */
 Package.onUse(function (api) {
 
+  api.use('materialize:materialize')
   api.use('templating');
   api.use('fourseven:scss')
 
+  // Templates
   api.addFiles('lib/client/templates/main.html', 'client');
   api.addFiles('lib/client/templates/navbar.html', 'client');
 
+  // Stylesheets
+  api.addFiles('lib/client/stylesheets/navbar.scss', 'client');
+  api.addFiles('lib/client/stylesheets/main.scss', 'client');
+
 
   api.addFiles('lib/client/js/main.js', 'client');
+  api.addFiles('lib/client/js/navbar.js', 'client');
 });
