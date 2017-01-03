@@ -1,13 +1,26 @@
 $irinus-blue: #003399;
 $irinus-gray: #C0C0C0;
 $irinus-main-border: #B0B0B0;
+$irinus-day-title-container-color: #AEEBFF;
+$irinus-title-board-container-color: #33CCFF;
 
 .irinus-main{
-  margin: 1%;
-  border: solid;
-  border-color: $irinus-main-border;
-  border-radius: 10px;
-  border-width: thin;
-  background-color: $irinus-gray;
+  margin-top: 1%;
   box-shadow: 1px;
+}
+.title-section{
+  display: block;
+}
+
+.day-title-container{
+  background-color: $irinus-day-title-container-color;
+  width: 15%;
+  float: left;
+}
+
+.title-board-container{
+  background-color: $irinus-title-board-container-color;
+  margin-left: 1%;
+  width: 84%;
+  float: left;
 }
