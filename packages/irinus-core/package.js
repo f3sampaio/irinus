@@ -16,6 +16,7 @@ Package.onUse(function (api) {
 
   // Templates
   api.addFiles('lib/client/templates/main.html', 'client');
+  api.addFiles('lib/client/templates/dayActivitiesBoard.html', 'client');
   api.addFiles('lib/client/templates/navbar.html', 'client');
 
   // Stylesheets
@@ -23,6 +24,9 @@ Package.onUse(function (api) {
   api.addFiles('lib/client/stylesheets/main.scss', 'client');
 
 
+  // Javascript
   api.addFiles('lib/client/js/main.js', 'client');
   api.addFiles('lib/client/js/navbar.js', 'client');
+  api.addFiles('lib/client/js/dayActivitiesBoard.js', 'client');
+  api.addFiles('lib/server/dayActivitiesBoard.js', 'server');
 });
